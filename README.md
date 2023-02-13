@@ -15,7 +15,8 @@ cd yatube_api
 
 - Запускаем миграции
 python manage.py makemigrations
+
 python manage.py migrate
 
 - Запускаем проект
-python3 manage.py runserver
+python3manage.py runserver
